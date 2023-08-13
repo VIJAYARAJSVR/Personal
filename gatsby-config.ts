@@ -28,7 +28,27 @@ const config: GatsbyConfig = {
       "path": "./src/pages/"
     },
     __key: "pages"
-  }]
+  },
+     {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        "name": "content-images",
+        "path": "./content/"
+      },
+      __key: "content-images"
+    },
+
+
+    {
+    resolve: `gatsby-plugin-styled-components`,
+    options: {
+      // Add any options here
+    },
+  }
+
+
+
+  ]
 };
 
 export default config;
