@@ -29,7 +29,8 @@
 
 3.  **Open the code and start customizing!**
 
-    Your site is now running at http://localhost:8000!
+    By Default site is now running at http://localhost:8000!
+4.  But I configured as the site running at http://localhost:8003! (package.json).
 
     Edit `src/pages/index.tsx` to see your site update in real-time!
 

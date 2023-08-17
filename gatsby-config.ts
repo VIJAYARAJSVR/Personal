@@ -1,5 +1,9 @@
 import type {GatsbyConfig} from "gatsby";
 
+module.exports = {
+    pathPrefix: "/Personal",
+}
+
 const config: GatsbyConfig = {
     siteMetadata: {
         title: `vijayarajsuyambu`,
