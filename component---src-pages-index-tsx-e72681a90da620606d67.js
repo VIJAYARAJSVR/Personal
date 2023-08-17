@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkvijayarajsuyambu=self.webpackChunkvijayarajsuyambu||[]).push([[691],{7200:function(e,a,t){t.r(a),t.d(a,{Head:function(){return i}});var n=t(7294);t(5086).default.div.withConfig({displayName:"pages__NeuWrapper",componentId:"sc-cyi839-0"})(["margin-bottom:2rem;background:bisque;"]);a.default=()=>n.createElement("div",{className:"text-center mt-5 font-semibold"}," Thi is my personal Website.");const i=()=>n.createElement("title",null,"Home Page")}}]);
+//# sourceMappingURL=component---src-pages-index-tsx-e72681a90da620606d67.js.map
