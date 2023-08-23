@@ -8,17 +8,13 @@
     "gatsby"
   ],
   "scripts": {
-
     "develop": "gatsby develop -p 8003",
     "start": "gatsby develop",
     "build": "gatsby build",
     "clean": "gatsby clean",
-
     "predeploy": "npm run build",
     "deploy": "gatsby build --prefix-paths && gh-pages -d public",
-
     "serve": "gatsby serve",
-
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
@@ -40,7 +36,8 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "styled-components": "^6.0.7",
-    "tailwindcss": "^3.3.3"
+    "tailwindcss": "^3.3.3",
+    "twin.macro": "^3.4.0"
   },
   "devDependencies": {
     "@tailwindcss/line-clamp": "^0.4.4",
@@ -52,4 +49,3 @@
     "typescript": "^5.1.6"
   }
 }
-
